@@ -1,0 +1,42 @@
+.lego-avatarcrop{
+	max-width: 700px;
+	.img-container{
+		background-image: url('./asset/img/default-user.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		overflow: hidden;
+		width: 450px;
+		height: 450px;
+		border: 1px #ddd solid;
+		border-radius: 5px;
+	}
+	.preview-container{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p{
+		color: #999;
+	}
+	.preview{
+		background-image: url('./asset/img/default-user.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-radius: 50%;
+		background-color: #f3f3f3;
+    	margin: 0 auto 5px auto;
+	}
+	.thumb-120{
+		width: 120px;
+		height: 120px;
+	}
+	.thumb-40{
+		width: 40px;
+		height: 40px;
+	}
+	.thumb-20{
+		width: 20px;
+		height: 20px;
+	}
+}
